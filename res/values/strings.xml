@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- *****  Menu ***** -->
+    <string name="app_name">HMCheckin</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_call_wifilist">CheckIn</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_logout">Logout</string>
+
+    <!-- ***** Login ***** -->
+    <string name="hint_login">Login</string>
+    <string name="hint_firstname">Vorname</string>
+    <string name="hint_lastname">Nachname</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirmPassword">Passwort bestätigen</string>
+    <string name="button_login">Login</string>
+    <string name="button_register">Registrieren</string>
+    <string name="error_login">Bitte Name und Passwort ausfüllen!</string>
+    <string name="login_errorTitle">Login fehlgeschlagen!</string>
+    <string name="login_errorMessage">Login nicht vorhanden oder Passwort falsch.</string>
+    <string name="login_positiveButton">OK</string>
+
+    <!-- ***** TabPager ***** -->
+    <string name="pager_friends">Freunde</string>
+    <string name="pager_invitation">Einladungen</string>
+    <string name="pager_search">Suche</string>
+
+    <!-- ***** Register ***** -->
+    <string name="register_errorNoInput">Bitte füllen Sie alle Felder aus!</string>
+    <string name="register_errorShortPw">Das Passwort muss mindestens 6 Zeichen haben!</string>
+    <string name="register_errorConfirmPw">Passwort Bestätigung falsch!</string>
+    <string name="register_dialogTitle">Fehler</string>
+    <string name="register_dialogMessage">Es ist ein Fehler bei der Registrierung aufgetreten.</string>
+    <string name="register_toastSucces">Registrierung erfolgreich!</string>
+
+    <!-- *****  FriendList activity ***** -->
+    <string name="title_activity_friends_list">Freunde</string>
+    <string name="menu_call_friendlist">Freunde</string>
+    <string name="friendlist_menu_btn_search">suchen</string>
+
+    <!-- *****  FriendSearch activity  ***** -->
+    <string name="title_activity_friend_search">Freunde suchen</string>
+    <string name="friendsearch_hint_username">Name</string>
+    <string name="btn_search_friend">Suchen</string>
+    <string name="search_nothingFound">Keine Treffer gefunden!</string>
+    <string name="search_sentInv">Einladung verschickt</string>
+
+    <!-- ***** CheckIn activity ***** -->
+    <string name="title_activity_check_in">CheckIn</string>
+    <string name="checkin_wifi_scan_btn">Wifi Scan</string>
+
+    <!-- ***** Invitation -->
+    <string name="inv_accept">Annehmen</string>
+    <string name="inv_waiting">Warten auf Bestätigung</string>
+    
+    <!-- ***** Dummy Content ***** -->
+    <string name="dummy_name">Janek Schoenwetter</string>
+    <string name="dummy_state">ist bemüht</string>
+    <string name="dummy_location">R0.004</string>
+    <string name="dummy_login">Kmehl</string>
+    <string name="dummy_firstName">Janek</string>
+    <string name="dummy_lastName">Schönwetter</string>
+    
+    <!-- ***** State List -->
+    <string name="state_offline">Offline</string>
+
+</resources>

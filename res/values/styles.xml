@@ -1,0 +1,72 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Hmcheckin" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_hmcheckin</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Hmcheckin</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Hmcheckin</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Hmcheckin</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Hmcheckin</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Hmcheckin</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_hmcheckin</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_hmcheckin</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Hmcheckin</item>
+        <item name="android:buttonStyle">@style/DefaultButton</item>
+        <item name="android:editTextStyle">@style/DefaultEditText</item>
+    </style>
+
+    <style name="ActionBar.Solid.Hmcheckin" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_hmcheckin</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_hmcheckin</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_hmcheckin</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Hmcheckin</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Hmcheckin" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_hmcheckin</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Hmcheckin</item>
+    </style>
+
+    <style name="PopupMenu.Hmcheckin" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_hmcheckin</item>
+    </style>
+
+    <style name="DropDownListView.Hmcheckin" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_hmcheckin</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Hmcheckin" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_hmcheckin</item>
+    </style>
+
+    <style name="DropDownNav.Hmcheckin" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_hmcheckin</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_hmcheckin</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_hmcheckin</item>
+    </style>
+
+    <style name="ProgressBar.Hmcheckin" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_hmcheckin</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Hmcheckin" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_hmcheckin</item>
+    </style>
+
+    <style name="DefaultButton" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/btn_default</item>
+    </style>
+
+    <style name="DefaultEditText" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Hmcheckin.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Hmcheckin</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Hmcheckin</item>
+    </style>
+
+</resources>
